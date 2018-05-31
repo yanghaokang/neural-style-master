@@ -12,23 +12,42 @@
 
 
 实际操作：
+
 1.图像预处理（内容图、画风图）、生成图占位符定义
+
 2.预训练模型加载
+
 3.三张图跑网络
+
 4.内容损失计算
+
 5.格拉姆矩阵计算
+
 6.风格损失计算
+
 7.损失和梯度汇总
+
 8.设置迭代计算图
+
 10.选择生成图优化方法
+
 11.开始迭代
 
+
+
+
 样式图:
+
 ![](https://github.com/ttanzhiqiang/neural-style-master/blob/master/v2-fc8c6a5a840ea83f5e5d3241707d08bc_r.jpg)
 
 原图:
+
 ![](https://github.com/ttanzhiqiang/neural-style-master/blob/master/2-content.jpg)
+
 风格图:
+
 ![](https://github.com/ttanzhiqiang/neural-style-master/blob/master/shipwreck.jpg)
+
 输出图:
+
 ![](https://github.com/ttanzhiqiang/neural-style-master/blob/master/y-output.jpg)
